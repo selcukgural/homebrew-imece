@@ -1,7 +1,9 @@
 # Homebrew tap for imece
 
 ```sh
-brew install selcukgural/imece/imece
+brew tap selcukgural/imece
+brew trust --formula selcukgural/imece/imece   # Homebrew 7 and newer; an older one has no such command
+brew install imece
 ```
 
 Installs `imece` from the [imece releases](https://github.com/selcukgural/imece/releases):
